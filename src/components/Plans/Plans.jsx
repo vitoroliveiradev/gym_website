@@ -6,6 +6,8 @@ export const Plans = () => {
     let arrow = "->"
   return (
     <div className="plans-container" style={{ gap: "2rem" }}>
+      <div className="blur plans-blur-1"></div>
+      <div className="blur plans-blur-2"></div>
       <div className="programs-header">
         <span className="stroke-text">READY TO START</span>
         <span>YOUR JOURNEY</span>
